@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="🕉️ Pengingat Hari Raya Hindu Bali" android:textSize="25sp" android:textStyle="bold" android:textColor="#6D28D9" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/today" android:textSize="17sp" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnPermission" android:text="🔔 Aktifkan Notifikasi" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnTest" android:text="Tes Notifikasi" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/events" android:textSize="16sp" android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>
